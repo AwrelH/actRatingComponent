@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+}
+
+.container-md {
+  max-width: 400px;
+  margin-top: 150px;
+}
+
+.card {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.str-icon {
+  max-width: 50px;
+  color: hsl(25, 97%, 53%);
+}
+.str-container,
+.rating-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-circle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.thanks {
+  display: none;
+  text-align: center;
+}
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.rating-circle {
+  color: hsl(217, 12%, 63%);
+  border: none;
+}
+.rating-circle:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.title {
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.rating-message {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 10px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+
+  padding: 5px;
+  font-size: 14px;
+}
+
+.thanks-img {
+  max-width: 50%;
+  display: block;
+}
+.thanks-text {
+  text-align: center;
+  font-size: 14px;
+  color: hsl(217, 12%, 63%);
+}
+.thanks-title {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.card-text:last-child {
+  margin-bottom: 1.5rem;
+}
+
+.btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 54%);
+}
+.rating-circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(217, 12%, 63%);
+  font-weight: 700;
+}
+.rating-circle:focus-within {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.hidden {
+  display: none;
+}
+
+.color {
+  background-color: red;
+}

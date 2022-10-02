@@ -7,7 +7,6 @@ let spanValue = document.querySelector(".rating");
 
 ratingCircles.forEach((element) => {
   element.addEventListener("click", () => {
-    element.style.backGroundColor = "hsl(217, 12%, 63%)";
     spanValue.innerHTML = element.innerHTML;
   });
 });
